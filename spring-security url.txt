@@ -1,0 +1,8 @@
+ http://localhost:9091/surveys/Survey1/questions/
+
+Enter username as "admin1"
+and password as "secret1"
+
+Cross Site Request Forgery (CSRF)
+
+If you're using Spring Boot, the simplest way to disable the Spring Security default headers is to use security.headers.* properties. In particular, if you want to disable the X-Frame-Options default header, just add the following to your application.properties : security.headers.frame=false. There is also security.
